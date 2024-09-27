@@ -28,6 +28,8 @@ help(praise)
 
 usethis::use_package("glue")
 
+library(usethis)
+
 usethis::use_git()
 
-
+install.packages("usethis")

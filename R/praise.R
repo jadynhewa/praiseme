@@ -13,6 +13,8 @@
 #' @examples
 #' praise(name = "Jadyn", punctuation = "!" )
 
+
+
 praise <- function(name, punctuation = "!") {
   glue::glue("You're the best, {name}{punctuation}")
 }
@@ -25,3 +27,8 @@ usethis::use_mit_license("Jadyn Hewa")
 help(praise)
 
 usethis::use_package("glue")
+
+
+
+
+

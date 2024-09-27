@@ -28,7 +28,6 @@ help(praise)
 
 usethis::use_package("glue")
 
-
-
+usethis::use_git()
 
 
